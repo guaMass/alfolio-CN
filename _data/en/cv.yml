@@ -1,0 +1,109 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: MENG, Wugang
+    - name: Date of Birth
+      value: 24th July 1997
+    - name: Languages
+      value: Chinese(native), English(fluent), Cantonese(beginner)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Electronic and Computer Engineering
+      institution: Hong Kong University of Science and Technology, Hong Kong, China
+      year: 2023-now
+      description:
+        - Advised by <a href="https://ece.hkust.edu.hk/eefumin">Prof. Fumin ZHANG</a>
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: M.S. in Computer Science
+      institution: Georgia Institute of Technology, Atlanta, U.S.A
+      year: 2021-2023
+      description:
+        - GPA：3.9 (4.0 scale) 
+        - Machine Learning Specialization
+    - title: B.Eng. in Electronic and Information Engineering
+      institution: Harbin Institute of Technology, Harbin, China
+      year: 2015-2019
+      description:
+        - Thesis：<i>Millimeter wave radar SLAM based on ROS</i>
+        - Advised by <a href="https://comm.hdu.edu.cn/_s70/2023/0216/c2866a241809/page.psp">Prof. Yinan ZHAO</a>
+
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Peer Tutor
+      institution: Georgia Tech Shenzhen Institute, Georgia Institute of Technology
+      year: 2022SP-2022FA
+      description:
+        - Responsible for testing and deploying the automatic scoring scripts on GradeScope.
+        - Holding office hours weekly.
+        - title: Courses
+          contents:
+            - CS7638 AI for Robotics.
+            - CS6515 Graduate Algorithm.
+    - title: Engineer
+      institution: Wireless location and navigation Laboratory, Harbin Institute of Technology（Weihai）
+      year: 2019-2021
+      description:
+        - Participate in <i>*** intelligent perception system</i> program.
+        - Independently responsible for intelligent unmanned system sensing and navigation module development.
+        - The system was applied to a self-developed unmanned driving platform, which was successfully delivered to the Science and Technology Commission of the Military Commission by the end of 2022.
+
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: Peer Tutor
+#       year: 2023-now
+#       description: A fork of al-folio theme with support for multiple languages.
+
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+#     - title: Director
+#       institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+#       year: 1917-1933
+
+#     - title: Professor of Theoretical Physics
+#       institution: Karl-Ferdinand University, Prague, Czechoslovakia
+#       year: 1911 - 1917
+#       description:
+
+#     - title: Associate Professor of Theoretical Physics
+#       institution: University of Zurich, Zurich, Switzerland
+#       year: 1909 - 1911
+
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -1,0 +1,101 @@
+- title: 基本资料
+  type: map
+  contents:
+    - name: 姓名
+      value: 孟吴刚
+    - name: 出生日期
+      value: 1997年07月24日
+    - name: 语言
+      value: 中文(母语), 英语(流利), 粤语(初学)
+
+- title: 教育
+  type: time_table
+  contents:
+    - title: 电子与计算机科学博士研究生
+      institution: 香港科技大学，香港，中国
+      year: 2023-今
+      description:
+        - 由<a href="https://ece.hkust.edu.hk/eefumin">张福民教授</a>指导
+        # - title: Descrição 3.
+        #   contents:
+        #     - Sub-descrição 1.
+        #     - Sub-descrição 2.
+    - title: 计算机科学理学硕士研究生
+      institution: 佐治亚理工学院，亚特兰大，美国
+      year: 2021-2023
+      description:
+        - GPA：3.9 (满分4.0)
+        - 机器学习专业
+    - title: 电子信息工程工学学士
+      institution: 哈尔滨工业大学，哈尔滨，中国
+      year: 2015-2019
+      description:
+        - 论文：<i>基于ROS的毫米波雷达SLAM</i>
+        - 由<a href="https://comm.hdu.edu.cn/_s70/2023/0216/c2866a241809/page.psp">赵宜楠教授</a>指导。
+
+
+- title: 工作经历
+  type: time_table
+  contents:
+    - title: 研究生助教
+      institution: 佐治亚理工深圳学院，佐治亚理工学院
+      year: 2022春-2022秋
+      description:
+        - 负责GradeScope自动代码评分脚本的测试和部署。
+        - 组织习题课和课后答疑。
+        - title: 负责课程
+          contents:
+            - CS7638 AI的机器人应用。
+            - CS6515 研究生算法。
+    - title: 工程师
+      institution: 无线定位与导航实验室，哈尔滨工业大学（威海）
+      year: 2019-2021
+      description:
+        - 参与<i>某智能感知系统</i> 的研发。
+        - 独立负责智能无人系统感知和导航模块的开发。
+        - 将该系统应用于自主研发的无人驾驶平台，该项目于2022 年末成功交付至军委科技委。
+
+
+# - title: 项目经历
+#   type: time_table
+#   contents:
+#     - title: 扑翼无人机海面起落策略近端优化
+#       year: 2023-今
+#       description: 我们的目标是开发一个完整的扑翼无人机控制器，它能够自主地克服复杂的海面环境实现起落。
+#     - title: 数字化特征交易的策略优化与测试插件
+#       year: 2022-2023
+#       description: 实现了基于C4.5和Dyna-Q的交易策略，通过调整数字化特征的权重触发多头和空头交易信号。
+#     - title: 基于毫米波雷达的人体动作识别
+#       year: 2021-2022
+#       description: 通过Pytorch建立了一种ReLU极限学习机，可以将不同的人类动作的时频谱进行分类。
+#     - title: 某智能感知系
+#       year: 2019-2021
+#       description: 863计划项目。
+
+# - title: Honrarias e Prêmios
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Prêmio Nobel de Física
+#         - Medalha Matteucci
+#     - year: 2029
+#       items:
+#         - Medalha Max Planck
+
+# - title: Interesses Acadêmicos
+#   type: nested_list
+#   contents:
+#     - title: Tópico 1.
+#       items:
+#         - Descrição 1.
+#         - Descrição 2.
+#     - title: Tópico 2.
+#       items:
+#         - Descrição 1.
+#         - Descrição 2.
+
+# - title: Outros Interesses
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

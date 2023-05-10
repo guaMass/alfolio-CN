@@ -1,0 +1,1 @@
+[blog.mwg.ink](https://github.com/guaMass/old.guaMass.GitHub.io) 作为旧版页面将不再提供。请访问我的新个人链接[bio.mwg.ink](https://bio.mwg.ink)。
