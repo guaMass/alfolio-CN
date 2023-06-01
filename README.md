@@ -200,46 +200,30 @@ For a hands-on walkthrough of al-folio installation, check out [this cool video 
 
 ---
 
-#### Local setup using Docker (Recommended on Windows)
+#### Local Setup (WSL/Liunx)
+Install [Ruby](https://www.ruby-lang.org/en/downloads/) first
 
-~~You need to take the following steps to get `al-folio` up and running in your local machine:
-
-- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
-- Then, clone this repository to your machine:
-
+Ubuntu:
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
-$ cd <your-repo-name>
+sudo apt install gcc build-essential ruby ruby-dev build-essential
 ```
-
-~~Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.~~
-
+Fedora:
 ```bash
-$ # docker-compose up can not perform well because we need some extra add-in to support multiple language.
+sudo yum install gcc ruby-devel ruby make
 ```
-
-Note that when you run it for the first time, it will download a docker image of size 300MB or so.
-
-~~Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.~~
-
-> To change port number, you can edit `docker-compose.yml` file.
-
-<strong>Build your own docker image:</strong>
-
-> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
-
-Build and run a new docker image using:
+OpenSUSE:
 ```bash
-$ docker-compose -f docker-local.yml up
+sudo zypper install gcc ruby ruby-devel make
 ```
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
-
-
----
-
-#### Local Setup (Standard)
-
-Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:george-gca/multi-language-al-folio` and do the following:
+Then install [Bundler](https://bundler.io/):
+```bash
+sudo gem install bundler
+```
+Set an writeable path for bundler download cache:
+```bash
+bundle config path ~/bundler/cache
+``` 
+Now you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first click [Use this template](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) above the file list, create a new repository at `github.com:<your-username>/<your-repo-name>` from `github.com:guaMass/alfolio-CN` and do the following:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
